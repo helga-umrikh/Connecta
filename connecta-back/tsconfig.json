@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-    "module": "nodenext",
+    "module": "commonjs",
     "target": "esnext",
     "lib": [
       "esnext"
@@ -17,11 +17,12 @@
     "exactOptionalPropertyTypes": true,
     "noUnusedParameters": true,
     "strict": true,
-    "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "exclude": ["eslint.config.mts"]
+  "exclude": [
+    "eslint.config.mts"
+  ]
 }
